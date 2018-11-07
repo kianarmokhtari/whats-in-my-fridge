@@ -1,0 +1,9 @@
+<% @signups.each do |signups| %>
+ID: <%=signups.userID%><br>
+Password: <%=signups.password%><br>
+Confirmed password: <%=signups.confirmpassword%><br>
+Name: <%= signups.username%><br>
+Age: <%= signups.userage%><br>
+Country: <%= signups.usercountry%><br>
+<% end %>
+<a href="/welcome">Go back</a>

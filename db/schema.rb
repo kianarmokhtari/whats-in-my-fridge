@@ -13,13 +13,15 @@
 
 ActiveRecord::Schema.define(version: 20150809022253) do
 
-  create_table "movies", force: :cascade do |t|
-    t.string   "title"
-    t.string   "rating"
-    t.text     "description"
-    t.datetime "release_date"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "signups", force: :cascade do |t|
+    t.text     "userID"
+    t.text     "password"
+    t.text     "confirmpassword"
+    t.text     "username"
+    t.integer  "userage"
+    t.text     "usercountry"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
 end
