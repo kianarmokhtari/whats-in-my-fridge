@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 # use Haml for templates
 gem 'haml'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'clearance', '~> 1.15.1'
+
+# Bundle edge Rails inste ,ad: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
