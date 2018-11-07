@@ -5,6 +5,13 @@ Rails.application.routes.draw do
   get '/signup' => 'home#signup'
   get '/profile' => 'home#profile'
   get '/profile_' => 'home#profile_'
+  
+  get 'auth/:provider/callback' => 'sessions#create'
+  post 'logout' => 'sessions#destroy'
+  get 'auth/failure' => 'sessions#failure'
+  get 'auth/twitter', :as => 'login'
+  get 'sessions/login' => 'sessions#login'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

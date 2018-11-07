@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150809022253) do
+ActiveRecord::Schema.define(version: 20181107174203) do
 
   create_table "signups", force: :cascade do |t|
     t.text     "userID"
@@ -22,6 +22,14 @@ ActiveRecord::Schema.define(version: 20150809022253) do
     t.text     "usercountry"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+  end
+
+  create_table "usergoers", force: :cascade do |t|
+    t.string   "name"
+    t.string   "provider"
+    t.string   "uid"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
