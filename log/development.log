@@ -230,3 +230,87 @@ Cannot render console from 134.29.90.92! Allowed networks: 127.0.0.1, ::1, 127.0
 Processing by HomeController#welcome as HTML
   Rendered home/welcome.erb within layouts/application (0.1ms)
 Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 134.29.63.163 at 2018-11-07 20:09:32 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.erb within layouts/application (1.9ms)
+Completed 200 OK in 250ms (Views: 240.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 134.29.63.163 at 2018-11-07 20:09:44 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#signup as HTML
+  Rendered home/signup.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 134.29.63.163 at 2018-11-07 20:09:49 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#welcome as HTML
+  Rendered home/welcome.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profile_" for 134.29.63.163 at 2018-11-07 20:09:50 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#profile_ as HTML
+  [1m[35mSignup Load (0.3ms)[0m  SELECT "signups".* FROM "signups"
+  Rendered home/profile_.erb within layouts/application (9.9ms)
+Completed 200 OK in 27ms (Views: 21.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/welcome" for 134.29.63.163 at 2018-11-07 20:09:52 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#welcome as HTML
+  Rendered home/welcome.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome?userID=&password=" for 134.29.63.163 at 2018-11-07 20:10:03 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#welcome as HTML
+  Parameters: {"userID"=>"", "password"=>"[FILTERED]"}
+  Rendered home/welcome.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 134.29.63.163 at 2018-11-07 20:14:01 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.erb within layouts/application (1.6ms)
+Completed 200 OK in 276ms (Views: 266.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 134.29.63.163 at 2018-11-07 20:14:16 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#signup as HTML
+  Rendered home/signup.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 134.29.63.163 at 2018-11-07 23:28:51 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.erb within layouts/application (1.6ms)
+Completed 200 OK in 164ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 134.29.63.163 at 2018-11-07 23:28:52 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 134.29.63.163 at 2018-11-07 23:28:52 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 134.29.63.163 at 2018-11-07 23:28:52 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 134.29.63.163 at 2018-11-07 23:28:52 +0000
+Cannot render console from 134.29.63.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
